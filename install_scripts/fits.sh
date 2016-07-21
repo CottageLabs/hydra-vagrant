@@ -13,4 +13,4 @@ sudo curl $DOWNLOAD_URL > fits.zip
 unzip fits.zip
 chmod a+x fits-$FITS_VERSION/*.sh
 cd fits-$FITS_VERSION/
-sudo mv *.properties *.sh lib tools xml /usr/local/bin
+sudo mv -f *.properties *.sh lib tools xml /usr/local/bin

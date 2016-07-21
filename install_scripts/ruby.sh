@@ -12,5 +12,6 @@ sudo apt-get update
 sudo apt-get -y install ruby2.2 ruby2.2-dev
 
 # gems
-GEMS="bundler rails unicorn"
+GEMS="bundler unicorn"
 sudo gem install $GEMS --no-ri --no-rdoc
+sudo gem install rails -V --version=4.2.7

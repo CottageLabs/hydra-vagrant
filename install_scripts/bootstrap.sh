@@ -11,7 +11,8 @@ fi
 cd $HOME_DIR
 
 # Update
-apt-get -y update && apt-get -y upgrade
+apt-get -y update
+#&& apt-get -y upgrade
 
 # SSH
 apt-get -y install openssh-server
